@@ -9,15 +9,18 @@ System Requirements:
 
 Load Data:
 
-- Place JSON file (bostonmarathon_photos.json) in the /tmp directory
-- Need a mysql db schema named 'dev_challenge'
-- Modify mysql credentials as needed
-- rake db:migrate
-- rake init:load_data
+1. Place JSON file (bostonmarathon_photos.json) in the /tmp directory
+2. Need a mysql db schema named 'dev_challenge'
+3. Modify mysql credentials as needed
+4. rake db:migrate
+5. rake init:load_data
 
 Start Server: rails s
 
-Run Unit Tests: rake test
+Run Unit Tests: 
+1. Need a mysql db schema named 'test_challenge' 
+2. rake db:test:prepare
+3. rake test
 
 Web Requirements:
 - List Brands with photo counts (Homepage)

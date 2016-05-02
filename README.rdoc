@@ -13,7 +13,8 @@ Load Data:
 2. Need a mysql db schema named 'dev_challenge'
 3. Modify mysql credentials as needed
 4. rake db:migrate
-5. rake init:load_data
+5. rake init:load_data (ABOUT 10 MINS)
+  (In hindsight, I could of spent some more time optimizing the load script =( )
 
 Start Server: rails s
 

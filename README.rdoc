@@ -17,6 +17,8 @@ Load Data:
 
 Start Server: rails s
 
+Run Unit Tests: rake test
+
 Web Requirements:
 - List Brands with photo counts (Homepage)
 - Gallery of Photos within each Brand (links on homepage)

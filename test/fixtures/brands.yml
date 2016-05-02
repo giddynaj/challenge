@@ -1,0 +1,435 @@
+brand1:
+    id: 1
+    brand_name: Adidas
+brand2:
+    id: 2
+    brand_name: Marc_Jacobs
+brand3:
+    id: 3
+    brand_name: Pacsun
+brand4:
+    id: 4
+    brand_name: Lucky_Strike
+brand5:
+    id: 5
+    brand_name: John_Hancock
+brand6:
+    id: 6
+    brand_name: Boston_Marathon
+brand7:
+    id: 7
+    brand_name: Pacific_Life_Insurance
+brand8:
+    id: 8
+    brand_name: Polartec
+brand9:
+    id: 9
+    brand_name: Converse
+brand10:
+    id: 10
+    brand_name: Ericsson
+brand11:
+    id: 11
+    brand_name: Bombardier
+brand12:
+    id: 12
+    brand_name: Allergan
+brand13:
+    id: 13
+    brand_name: Ramones
+brand14:
+    id: 14
+    brand_name: Redds_Apple_Ale
+brand15:
+    id: 15
+    brand_name: Ghostbusters
+brand16:
+    id: 16
+    brand_name: Directv
+brand17:
+    id: 17
+    brand_name: Target
+brand18:
+    id: 18
+    brand_name: Bank_Of_America_Chicago_Marathon
+brand19:
+    id: 19
+    brand_name: Charlotte_Hornets
+brand20:
+    id: 20
+    brand_name: Boston_Red_Sox
+brand21:
+    id: 21
+    brand_name: Helly_Hansen
+brand22:
+    id: 22
+    brand_name: Lincoln
+brand23:
+    id: 23
+    brand_name: Duracell
+brand24:
+    id: 24
+    brand_name: Boones_Farm
+brand25:
+    id: 25
+    brand_name: Premium
+brand26:
+    id: 26
+    brand_name: John_Lewis
+brand27:
+    id: 27
+    brand_name: Samuel_Adams
+brand28:
+    id: 28
+    brand_name: Abbott_Labs
+brand29:
+    id: 29
+    brand_name: Tata_Docomo
+brand30:
+    id: 30
+    brand_name: Hays_Business_Services
+brand31:
+    id: 31
+    brand_name: Herdez
+brand32:
+    id: 32
+    brand_name: Butterball
+brand33:
+    id: 33
+    brand_name: New_Balance
+brand34:
+    id: 34
+    brand_name: JetBlue
+brand35:
+    id: 35
+    brand_name: Stonyfield
+brand36:
+    id: 36
+    brand_name: Bandai_Namco
+brand37:
+    id: 37
+    brand_name: Roger_Federer
+brand38:
+    id: 38
+    brand_name: Heinz_Mustard
+brand39:
+    id: 39
+    brand_name: Garmin
+brand40:
+    id: 40
+    brand_name: Dove
+brand41:
+    id: 41
+    brand_name: A1
+brand42:
+    id: 42
+    brand_name: Duck_Commander
+brand43:
+    id: 43
+    brand_name: Thrivent
+brand44:
+    id: 44
+    brand_name: Brambles
+brand45:
+    id: 45
+    brand_name: Virgin
+brand46:
+    id: 46
+    brand_name: Turkish_Airlines
+brand47:
+    id: 47
+    brand_name: Perugina
+brand48:
+    id: 48
+    brand_name: Kaplan
+brand49:
+    id: 49
+    brand_name: John_Deere
+brand50:
+    id: 50
+    brand_name: Five_Guys
+brand51:
+    id: 51
+    brand_name: Florida_Citrus
+brand52:
+    id: 52
+    brand_name: Fixodent
+brand53:
+    id: 53
+    brand_name: Chanel
+brand54:
+    id: 54
+    brand_name: Athenos
+brand55:
+    id: 55
+    brand_name: Haribo
+brand56:
+    id: 56
+    brand_name: Spartan_Race
+brand57:
+    id: 57
+    brand_name: Feeding_America
+brand58:
+    id: 58
+    brand_name: Bosch
+brand59:
+    id: 59
+    brand_name: ERDF
+brand60:
+    id: 60
+    brand_name: Schlitterbahn_Water_Parks
+brand61:
+    id: 61
+    brand_name: Nationwide
+brand62:
+    id: 62
+    brand_name: Claritin
+brand63:
+    id: 63
+    brand_name: Max_Mara
+brand64:
+    id: 64
+    brand_name: Powerade
+brand65:
+    id: 65
+    brand_name: Loreal
+brand66:
+    id: 66
+    brand_name: Birkenstock
+brand67:
+    id: 67
+    brand_name: Bentley
+brand68:
+    id: 68
+    brand_name: Democratic_National_Committee
+brand69:
+    id: 69
+    brand_name: Brazil_FC
+brand70:
+    id: 70
+    brand_name: KC_Masterpiece_BBQ
+brand71:
+    id: 71
+    brand_name: Victorias_Secret
+brand72:
+    id: 72
+    brand_name: Whole_Foods_Market
+brand73:
+    id: 73
+    brand_name: Burton
+brand74:
+    id: 74
+    brand_name: Lacoste
+brand75:
+    id: 75
+    brand_name: Synthesio
+brand76:
+    id: 76
+    brand_name: Bloomberg
+brand77:
+    id: 77
+    brand_name: Glaxo_Smith_Kline
+brand78:
+    id: 78
+    brand_name: Mountain_Dew
+brand79:
+    id: 79
+    brand_name: Huari
+brand80:
+    id: 80
+    brand_name: Wells_Fargo
+brand81:
+    id: 81
+    brand_name: Neutrogena
+brand82:
+    id: 82
+    brand_name: Hint
+brand83:
+    id: 83
+    brand_name: Louis_Vuitton
+brand84:
+    id: 84
+    brand_name: Yeti
+brand85:
+    id: 85
+    brand_name: Harvest_Bay_Coconut_Water
+brand86:
+    id: 86
+    brand_name: New_England_Patriots
+brand87:
+    id: 87
+    brand_name: Boston_Bruins
+brand88:
+    id: 88
+    brand_name: La_Z_Boy
+brand89:
+    id: 89
+    brand_name: Callaway
+brand90:
+    id: 90
+    brand_name: Dos_Equis
+brand91:
+    id: 91
+    brand_name: Peroni
+brand92:
+    id: 92
+    brand_name: Discover
+brand93:
+    id: 93
+    brand_name: University_of_Toledo
+brand94:
+    id: 94
+    brand_name: Beneful
+brand95:
+    id: 95
+    brand_name: Unitedhealthcare
+brand96:
+    id: 96
+    brand_name: Kettle_Brand_Chips
+brand97:
+    id: 97
+    brand_name: Straight_Outta
+brand98:
+    id: 98
+    brand_name: Gallo_Family_Vineyards
+brand99:
+    id: 99
+    brand_name: Bud_Light_Lime_Ritas
+brand100:
+    id: 100
+    brand_name: King_Oscar
+brand101:
+    id: 101
+    brand_name: Moschino
+brand102:
+    id: 102
+    brand_name: Southern_Comfort
+brand103:
+    id: 103
+    brand_name: Kansas_Jayhawks
+brand104:
+    id: 104
+    brand_name: Bed_Head
+brand105:
+    id: 105
+    brand_name: Arctic_Cat
+brand106:
+    id: 106
+    brand_name: SXSW
+brand107:
+    id: 107
+    brand_name: Counter_Strike
+brand108:
+    id: 108
+    brand_name: Monster_Headphones
+brand109:
+    id: 109
+    brand_name: Costa_Del_Mar
+brand110:
+    id: 110
+    brand_name: Bradesco
+brand111:
+    id: 111
+    brand_name: Netherlands_FC
+brand112:
+    id: 112
+    brand_name: Fosters
+brand113:
+    id: 113
+    brand_name: Dodge_Ram
+brand114:
+    id: 114
+    brand_name: Pepsi
+brand115:
+    id: 115
+    brand_name: Zico
+brand116:
+    id: 116
+    brand_name: Martini
+brand117:
+    id: 117
+    brand_name: Vicks
+brand118:
+    id: 118
+    brand_name: Bastille
+brand119:
+    id: 119
+    brand_name: Somersby
+brand120:
+    id: 120
+    brand_name: New_York_Rangers
+brand121:
+    id: 121
+    brand_name: Lavazza
+brand122:
+    id: 122
+    brand_name: Frooti
+brand123:
+    id: 123
+    brand_name: Stanley_Tools
+brand124:
+    id: 124
+    brand_name: Oakland_Athletics
+brand125:
+    id: 125
+    brand_name: Sudafed
+brand126:
+    id: 126
+    brand_name: North_Carolina_Tarheels
+brand127:
+    id: 127
+    brand_name: Lowenbrau
+brand128:
+    id: 128
+    brand_name: Betfred
+brand129:
+    id: 129
+    brand_name: Girl_Scouts
+brand130:
+    id: 130
+    brand_name: Fendi
+brand131:
+    id: 131
+    brand_name: Quicksilver
+brand132:
+    id: 132
+    brand_name: Method
+brand133:
+    id: 133
+    brand_name: MasterCard
+brand134:
+    id: 134
+    brand_name: Southwest_Airlines
+brand135:
+    id: 135
+    brand_name: Weathertech
+brand136:
+    id: 136
+    brand_name: Tuborg
+brand137:
+    id: 137
+    brand_name: Tabasco
+brand138:
+    id: 138
+    brand_name: Orange
+brand139:
+    id: 139
+    brand_name: Intel
+brand140:
+    id: 140
+    brand_name: The_North_Face
+brand141:
+    id: 141
+    brand_name: Evolution_Fresh
+brand142:
+    id: 142
+    brand_name: Teavana
+brand143:
+    id: 143
+    brand_name: Kelly_Blue_Book
+brand144:
+    id: 144
+    brand_name: Bed_Bath_And_Beyond
+brand145:
+    id: 145
+    brand_name: Saucony

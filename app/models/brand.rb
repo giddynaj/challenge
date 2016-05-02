@@ -26,7 +26,7 @@ class Brand < ActiveRecord::Base
     self.count
   end
 
-  def exists?(name)
-    !self.find_by_name(name).empty?
+  def self.exists?(name)
+    !Brand.find_by_brand_name(name).nil?
   end
 end

@@ -201,9 +201,9 @@ function addToBrandNames(names, obj){
 
        el.innerHTML = template;
 
-       el.getElementsByClassName("brandname")[0].innerHTML += "<a href=\"/brands/" + obj[name]['id'] + "\">" + name + "</a>";
+       el.getElementsByClassName("brandname")[0].innerHTML += name;
        el.getElementsByClassName("brandcounts")[0].innerHTML +=  obj[name]['counts'];
-       //el.getElementsByTagName("a")[0].href = "/brands/" + obj[name]['id'];
+       el.getElementsByTagName("a")[0].href = "/brands/" + obj[name]['id'];
        //el.getElementsByClassName("brand-link")[0].innerHTML +=  "<image src=\"http://images.motovy.com/carimage/53684744/thumb/0.jpg\"  style=\"position:relative; min-width:auto; height:auto;  \" />";
 
        document.getElementsByClassName("list")[0].appendChild(el);

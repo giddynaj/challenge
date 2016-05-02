@@ -1,14 +1,16 @@
 == DITTO CODE CHALLENGE 
 
-mysql  Ver 14.14 Distrib 5.7.11
+mysql  Ver 14.14 Distrib 5.7.11 (no credentials)
 ruby-2.0.0-p643
 rails 4.2.0
-Redis 3.0.7
+Redis 3.0.7 (config file : /config/redis.yml; initalizer : /config/initializer/redis.rb)
 
-JSON file has been placed in the /tmp directory within this repo
 
 Load Data:
-Need a db schema named 'dev_challenge'
+
+Place JSON file (bostonmarathon_photos.json) in the /tmp directory
+Need a mysql db schema named 'dev_challenge'
+Modify mysql credentials as needed
 rake db:migrate
 rake init:load_data
 

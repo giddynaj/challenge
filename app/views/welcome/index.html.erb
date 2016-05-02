@@ -1,0 +1,23 @@
+<div class="container">
+<div><h3>Brands <span id="brand-count"></span></h3></div>
+<br/>
+<div id="brands">
+<table class="u-full-width">
+  <thead>
+    <tr>
+      <th><a href="javascript:sort_children('brandname', false)">Brand</a></th>
+      <th><a href="javascript:sort_children('brandcounts', true)">Photo Counts</a></th>
+    </tr>
+  </thead>
+  <tbody class="list"></tbody>
+</table>
+</div>
+
+<script id="brands-template" type="x-template">
+ <td class="brandname"></td>
+ <td class="brandcounts"></td>
+</script>
+</div>
+<script>
+getBrands();
+</script>

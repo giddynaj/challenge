@@ -1,0 +1,35 @@
+== DITTO CODE CHALLENGE 
+
+mysql  Ver 14.14 Distrib 5.7.11
+ruby-2.0.0-p643
+rails 4.2.0
+Redis 3.0.7
+
+JSON file has been placed in the /tmp directory within this repo
+
+Load Data:
+Need a db schema named 'dev_challenge'
+rake db:migrate
+rake init:load_data
+
+Start Server: rails s
+
+Web Requirements:
+List Brands with photo counts (Homepage)
+Gallery of Photos within each Brand (links on homepage)
+
+Optional:
+Paginate through the list of photos for a brand 
+  (Implemented a client side pagination and serverside pagination combo)
+Show the most popular photos (by favorite count) for a particular brand 
+  (Loaded the values in a favoriteds table)
+Show the most recent photos for a particular brand 
+  (Implemented a sort function to work on the tagged created_at value)
+Only show photos with "High" quality matches for a particular brand
+  (Implemented a sort function to work on the tagged quality match value)
+When listing all of the brands, display the number of times a brand was identified
+  (Implemented)
+Given a particular brand, identify which other brands it frequently appears with
+  (Loaded in Redis server using brand name as initial key and each "neighbor" brand name as subsequent field names)
+
+

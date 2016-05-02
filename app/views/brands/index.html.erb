@@ -1,0 +1,86 @@
+<style>
+.li-class{
+display: inline;
+}
+.pagination li{
+display: inline;
+margin-right: 5px;
+}
+.pagination a {
+font-size: 1.3em;
+}
+.pagination .active a{
+color: red;
+}
+.hidden{
+display: none;
+}
+/*.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }
+*/
+.grow {
+    width: 100px;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.grow:hover {
+    cursor: pointer;
+    width: 300px;
+}
+</style>
+
+<div class="container">
+<div class="row">
+<div class="six columns">
+<h3 style="margin-bottom: 10px">Images for <%= @brand_name %></h3>
+</div>
+
+<div class="six columns">
+<small><a href="/" style="text-decoration: none;">< Return to Brands</a></small>
+</div>
+<div class="twelve columns">
+Most frequent brands to appear: <ul class="neighbors"></ul>
+</div>
+</div>
+  <div id="listId">
+   <div>
+  <ul class="pagination" style="display: inline;"></ul><a id="getmore" href="javascript:get_more()">Get More</a> <span id="current_count"></span> of <span id="total_count"><%= @photo_count %></span> loaded.
+<div class="filter-header">
+  <button onclick="javascript:sort_children('match-quality')">Sort by Match Quality</button>
+  <button onclick="javascript:sort_children('favorited',true)">Sort by Favorite Count</button>
+  <button class="sort" data-sort="taken-at">Sort by time taken</button>
+</div>
+</div>
+  <ul id="list" class="list"></ul>
+  <ul class="pagination"></ul>
+</div>
+
+  <script id="brand-template" type="x-template">
+    <span class="brand-image" ></span>
+    <span class="taken-at hidden"></span>
+    <span class="match-quality hidden"></span>
+    <span class="favorited hidden"></span>
+  </script>
+</div>
+<script>
+var brand_photos = <%= @photos.html_safe %>;
+var brand_neighbors = <%= @brand_neighbors.to_json.html_safe %>;
+setupBrand(brand_photos);
+setupNeighbors(brand_neighbors);
+
+</script>
+<script>
+  var options = {
+    valueNames: [ 'brand-image', 'taken-at', 'match-quality', 'favorited' ],
+    page: 25,
+    plugins: [
+      ListPagination({})
+    ]
+  };
+
+  var listObj = new List('listId', options);
+</script>

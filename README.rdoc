@@ -1,4 +1,4 @@
-== DITTO CODE CHALLENGE 
+== CODE CHALLENGE 
 
 System Requirements:
 - mysql  Ver 14.14 Distrib 5.7.11 (no credentials)
